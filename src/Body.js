@@ -50,6 +50,7 @@ function Body() {
 		</section>
 		
 		<section id="projects">
+		<FadeInSection>
 			<h1 id="projectheader"> Github Projects </h1>
 			<h2 id="projectdesc">
 				Here are some of my projects from my Github
@@ -61,6 +62,7 @@ function Body() {
 				<a href={project.link}>View project</a>
 				</div>
 			))}
+		</FadeInSection>
 		</section>
 
 		<section id="contact">
