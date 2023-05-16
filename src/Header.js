@@ -6,7 +6,6 @@ function Header() {
   return (
     <header className="header">
        <img src={logo} alt="Logo" />
-       <p id="header-name"> Christopher Nielson </p>
       <nav>
         <ul>
           <li><a href="#">Projects</a></li>
