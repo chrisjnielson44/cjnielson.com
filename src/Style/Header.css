@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 999; /* add z-index to make the header appear on top of other elements */
+  background-image: linear-gradient(to right, #434343 0%, black 100%);}
+
+.header img {
+  height: 30px;
+  width: auto;
+  /* margin-right:; */
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  white-space: nowrap;
+  padding-right: 40px; /* add right padding to prevent last element from being cut off */
+}
+
+
+nav li {
+  margin-left: 20px;
+
+}
+
+nav a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px; /* add some padding to the navigation elements */
+}
+
+nav a:hover {
+  color: blue;
+}
