@@ -4,15 +4,15 @@
     margin: 0 auto;
     color: white;
   }
-  
+/*   
   html { 
     scroll-snap-type: y mandatory;
-  }
+  } */
 
   section {
     padding-top: 200px;
     height: 100vh;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
     text-align: center;
     position: relative;
   }
