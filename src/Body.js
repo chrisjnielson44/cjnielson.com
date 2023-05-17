@@ -1,7 +1,6 @@
 import React from "react";
 import "./Style/Body.css";
 
-
 function FadeInSection(props) {
 	const [isVisible, setVisible] = React.useState(false);
 	const domRef = React.useRef();
@@ -20,6 +19,7 @@ function FadeInSection(props) {
 	  </div>
 	);
 }
+
 
 function Body() {
 	const projects = [
@@ -44,13 +44,13 @@ function Body() {
 	<html>
 	  <main>
 		<section id="resume">
-		  <FadeInSection>
-			<h1 id="resumeheader"> Resume </h1>
-		  </FadeInSection>
+			<FadeInSection>
+			<h1 id="resume-header"> Resume </h1>
+			</FadeInSection>
 		</section>
 		
 		<section id="projects">
-		<FadeInSection>
+			<FadeInSection>
 			<h1 id="projectheader"> Github Projects </h1>
 			<h2 id="projectdesc">
 				Here are some of my projects from my Github
@@ -62,14 +62,18 @@ function Body() {
 				<a href={project.link}>View project</a>
 				</div>
 			))}
-		</FadeInSection>
+			</FadeInSection>
 		</section>
 
 		<section id="contact">
-		  <FadeInSection>
+		<FadeInSection>
 			<h1 id="contactheader"> Contact Me </h1>
-		  </FadeInSection>
+		</FadeInSection>
 		</section>
+
+		<footer>
+			Christopher Nielson
+		</footer>
 	  </main>
 	</html>
 	);

@@ -1,3 +1,7 @@
+  html { 
+    scroll-snap-type: y mandatory;
+  }
+  
   main {
     max-width: 800px;
     padding-top: 80px;
@@ -5,11 +9,6 @@
     color: white;
   }
   
-  html { 
-    scroll-snap-type: y mandatory;
-  }
-
-
   h1 {
     font-size: 3rem;
     margin: 0;
@@ -38,24 +37,6 @@
   }
   
 
-  #projects{
-    padding-top: 200px;
-    height: 100vh;
-    scroll-snap-align: start;
-    text-align: center;
-    position: relative;
-    animation: fadeIn 3s;
-  }
-  
-  #projectheader{
-    text-align: center;
-    padding-bottom: 20px;
-  }
-
-  #projectdesc{
-    text-align: center;
-    padding: 30px;
-  } 
 
   #resume{
     padding-top: 200px;
@@ -66,6 +47,30 @@
     animation: fadeIn 3s;
   } 
 
+  #resume-header{
+    animation: fadeIn 2s;
+  }
+
+  #projects{
+    padding-top: 200px;
+    height: 100vh;
+    scroll-snap-align: start;
+    text-align: center;
+    position: relative;
+    animation: fadeIn 3s;
+  }
+
+  #projectheader{
+    text-align: center;
+    padding-bottom: 20px;
+    animation: fadeIn 3s;
+  }
+
+  #projectdesc{
+    text-align: center;
+    padding: 30px;
+    animation: fadeIn 3s;
+  } 
 
   #contact{
     padding-top: 200px;
@@ -73,21 +78,20 @@
     scroll-snap-align: start;
     text-align: center;
     position: relative;
+    
   }
 
-
-  #resumepdf{
-    height: 1131px;
-    width: 980;
-  }
-
-  #resumeheader{
-    padding-bottom: 20px;
+  footer{
+    display: flex;
+    color: black;
+    background-color: white;
+    margin: 100px;
+    scroll-snap-align: start;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
 
   .fade-in-section {
     opacity: 0;
-    transform: translateY(20vh);
     visibility: hidden;
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     will-change: opacity, visibility;
@@ -99,10 +103,8 @@
     visibility: visible;
   }
 
+
   @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-  
- 
-  
