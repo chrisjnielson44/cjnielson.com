@@ -2,15 +2,6 @@ import React from "react";
 import logo from './logo.png'; // import logo image file
 import './Style/Header.css';
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
-  });
-});
 
 function Header() {
   return (

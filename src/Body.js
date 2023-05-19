@@ -70,10 +70,6 @@ function Body() {
 			<h1 id="contactheader"> Contact Me </h1>
 		</FadeInSection>
 		</section>
-
-		<footer>
-			Christopher Nielson
-		</footer>
 	  </main>
 	</html>
 	);
