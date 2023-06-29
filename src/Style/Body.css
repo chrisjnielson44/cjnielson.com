@@ -39,7 +39,7 @@
 
 
   #resume{
-    padding-top: 200px;
+    /* padding-top: 200px; */
     height: 100vh;
     scroll-snap-align: start;
     text-align: center;

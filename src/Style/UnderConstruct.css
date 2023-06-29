@@ -1,0 +1,18 @@
+main
+{
+    padding-top: 200px;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+  } 
+
+h1
+{
+    animation: fadeIn 3s;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
